@@ -71,7 +71,7 @@ for (var prop in obj) {
 }
 
 
-
+//This one will print out the key names which are the ant names.
 var antSpecies = {
   argentine: {},
   army: {},
@@ -89,8 +89,10 @@ var antSpecies = {
 {
    console.log(key); 
 }
+// or you could:
+//console.log(antSpecies[key]);
 
-
+// this will print out the value of the keys which are empty, will comeback as just objects
 
 
 
